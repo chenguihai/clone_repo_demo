@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2013-9-30: Created.
+-->
+<svg>
+<metadata>
+Created by iconfont
+</metadata>
+<defs>
+
+<font id="anticon_pickgoods" horiz-adv-x="1024" >
+  <font-face
+    font-family="anticon_pickgoods"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="1024"
+    ascent="896"
+    descent="-128"
+  />
+    <missing-glyph />
+    
+    <glyph glyph-name="jump" unicode="&#59165;" d="M790.536784-27.653571000000056L77.292364-27.653571000000056 77.292364 667.171338 625.784486 667.171338 625.784486 631.3556209999999 113.108081 631.3556209999999 113.108081 8.162146000000007 753.697761 8.162146000000007 753.697761 485.022835 790.536784 485.022835ZM904.925691 780.198156l25.885344-25.885344-400.116482-400.116482-25.885344 25.885344 400.116482 400.116482ZM932.909375 555.83767L896.369158 557.983543 908.096247 757.4689 708.61089 745.741811 706.465017 782.282029 947.06784 796.4404930000001Z"  horiz-adv-x="1024" />
+
+    
+
+
+  </font>
+</defs></svg>

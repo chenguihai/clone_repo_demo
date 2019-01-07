@@ -1,0 +1,150 @@
+.table-desc-box {
+  .table-desc{
+    margin-bottom: 10px;
+  }
+}
+.table-desc-box .key {
+  display: inline-block;
+  color: #434343;
+  font-size: 12px;
+  font-weight: 700;
+  width: 70px;
+}
+
+.table-desc-box .key.last {
+  width: 130px;
+}
+
+.table-desc-box .value {
+  display: inline-block;
+  font-size: 12px;
+}
+.thumbnail{
+  width: 180px;
+  height: 180px;
+}
+
+.pick-list-title {
+  font-weight: 800;
+  margin: 10px 0;
+  text-align: left;
+}
+.pick-list-item {
+  display: inline-block;
+  vertical-align: top;
+  width: 320px;
+  height: 600px;
+  margin-right: 30px;
+  margin-bottom: 40px;
+}
+
+.similar .pick-list-item:nth-child(4n) {
+  margin-right: 0;
+}
+
+.pick-list-item .img-box {
+  width: 320px;
+  height: 450px;
+  overflow: hidden;
+  position: relative;
+  background: #fff;
+  line-height: 450px;
+  border: 1px solid #e1e4e4b3;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1)
+}
+
+.pick-list-item .list-check {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 1px solid #e1e4e4b3;
+  background-color: #fff;
+  width: 75px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  border-top: none;
+  border-left: none;
+}
+
+.pick-list-item .pick-result {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  width: 100px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.pick-list-item .img-box img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.pick-list-item-desc {
+  height: 140px;
+  text-align: center;
+}
+
+.pick-list-item-desc .desc-title {
+  font-weight: 700;
+  color: rgb(51, 51, 51);
+  font-size: 14px;
+  display: block;
+  width: 90%;
+  margin: 15px auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.pick-list-item-desc .desc-price {
+  font-size: 14px;
+  font-weight: 700;
+  color: #39A0AB;
+  margin: 10px 0 20px 0;
+}
+
+.pick-list-item-desc .desc-other p {
+  margin: 10px 0;
+  font-size: 12px;
+}
+
+.pick-list-item-desc .desc-other div {
+  width: 90%;
+  margin: 0 auto;
+  border-bottom: 1px solid #999;
+}
+
+.pick-list-item-desc .desc-other span {
+  margin: 5px;
+}
+
+.pick-list-item-desc .desc-other .split {
+  margin: 0 2px;
+}
+
+.red{
+  color: #f00;
+}
+.ellipsis {
+  display: block;
+  //width: 300px;
+  overflow: hidden;/*超出部分隐藏*/
+  white-space: nowrap;/*不换行*/
+  text-overflow:ellipsis;/*超出部分文字以...显示*/
+}
+//.ant-table td {
+//  overflow: hidden;/*超出部分隐藏*/
+//  white-space: nowrap;/*不换行*/
+//  text-overflow:ellipsis;/*超出部分文字以...显示*/
+//}
+//const workbook = XLSX.read(result, {type: 'binary'});
+//let data = workbook.Sheets[workbook.SheetNames[0]];// 存储获取到的数据
+//
+//data = XLSX.utils.sheet_to_json(data, {header: 1})
